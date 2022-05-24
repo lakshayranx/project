@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title> Registaration Form</title>
+        <link rel="stylesheet" href="./viva.css">
+    </head>
+       
+    <body>
+        <h1>food zone Registaration Form</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <label for="fname"><b>First Name:</b></label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="lname"><b>Last Name:</b></label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="email"><b>Email:</b></label>
+                </div>
+                <div class="col-90">
+                    <input type="email" id="email" name="email" placeholder="type your mail">
+                </div> like @,."
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="mobile"><b>Mobile number:</b></label>
+                </div>
+                <div class="col-90">
+                    <input type="tel" id="mobile" name="mobile" placeholder="10 digits number">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="gender" required><b>Gender:</b></label>
+                </div>
+                <div class="col-90">
+                    <input type="checkbox" id="male" name="gender" value="male"/>Male
+                    <input type="checkbox" id="female" name="gender" value="female"/>Female
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="dob"><b>Date Of Birth:</b></label>
+                </div>
+                <div class="col-90">
+                    <input type="Date" id="dob" name="dob">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="address"><b>Address:</b></label>
+                </div>
+                <div class="col-90">
+                    <textarea name="address" id="address" cols="10" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="city"><b>City:</b></label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="city" name="city" maxlength="10">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="pincode"><b>Area PIN:</b></label>
+                </div>
+                <div class="col-90">
+                    <input type="number" id="pin" name="pin" maxlength="6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="state"><b>State:</b></label>
+                </div>
+                
+                <div class="col-90">
+                    <input type="text" id="state" name="state">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="choice" required ><b>choice:</b></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="password"><b>Password:</b></label>
+                </div>
+                <div class="col-90">
+                    <input type="password" id="password" name="password" maxlength="8">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-500"></div>
+                <input type="submit" value="Register" >
+            </div>  
+        </div>  
+    </body>
+</html>
